@@ -81,7 +81,7 @@ const TeamPage = () => (
             position='Information Technology'
             year='Senior'
             major='Computer Engineering'
-            bio='Reggie (Reijhui) is a junior in Computer Engineering. Going to high school at Lane Tech, he was part of their Filipino Club, Kapamilya Habang Buhay. After coming to the University of Illinois, he wanted to continue his involvement in the Filam community by joining its PSA. From dancing with Barkada to being a part of the AKA program, he&apos;s made many amazing memories with PSA. Now as information tech, he hopes to help make FACT a part of the delegates&apos; amazing memories, too.'
+            bio='Reggie (Reijhui) is a Senior in Computer Engineering. Going to high school at Lane Tech, he was part of their Filipino Club, Kapamilya Habang Buhay. After coming to the University of Illinois, he wanted to continue his involvement in the Filam community by joining its PSA. From dancing with Barkada to being a part of the AKA program, he&apos;s made many amazing memories with PSA. Now as information tech, he hopes to help make FACT a part of the delegates&apos; amazing memories, too.'
             imageURL='/img/fact-pack/Reggie.jpg'
           />
           <TeamMember
