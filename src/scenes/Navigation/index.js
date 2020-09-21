@@ -8,7 +8,7 @@ import styles from './styles.module.css'
 const Navigation = () => (
   <Navbar fixed="top"  expand="lg" className={`${styles.nav} boxShadow`}>
     <Link to='/'>
-      <Navbar.Brand className={styles.brand}><img src={"/img/logo.PNG"} style={{width:50, marginTop: 0}}/>FACT 2020</Navbar.Brand>
+      <Navbar.Brand className={styles.brand}><img src={"/img/logo.png"} style={{width:50, marginTop: 0}}/>FACT 2020</Navbar.Brand>
     </Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse>

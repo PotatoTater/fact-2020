@@ -130,7 +130,7 @@ const TeamPage = () => (
             year='Junior'
             major='Materials Science and Engineering Minoring in Chemistry'
             bio='Lorenzo Magnaye, or Renzo, is a rising junior studying Materials Science and Engineering and also pursuing a minor in Chemistry. In the field of Materials Science, he is specifically interested in polymers because of their widespread applications.  He is also part of the Illinois Engineering Ambassadors, which is a professional outreach program sponsored by the university to inspire kids who are underrepresented in engineering fields to pursue engineering degrees. During his free time, he loves cooking food, baking bread and cookies, and binge-watching shows and the NBA. Despite the ongoing pandemic, he cannot wait for this year&apos;s conference as he is excited to meet and connect with new people. '
-            imageURL='/img/fact-pack/Lorenzo.jpg'
+            imageURL='/img/fact-pack/lorenzo.jpg'
           />
           
           <TeamMember 

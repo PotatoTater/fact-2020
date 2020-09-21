@@ -50,7 +50,7 @@ class ImH extends React.Component {
           <Section class="main-image" style={{backgroundImage:'url(/img/newBridge.jpg)', backgroundSize: 'cover', marginTop: '8vh',}}>
             <center>
            
-             <Image src={"/img/bird-worded.png"} width="200" height="300"/>
+             <Image src={"/img/Bird-worded.png"} width="200" height="300"/>
             </center>
          </Section>
         )}
@@ -224,7 +224,7 @@ const Landing = () => (
             <Section.Title style={{}}>Theme</Section.Title>
               <Section.Body>
                 <Container>
-                      <center><Image src={"/img/bird.png"} width="200" height="300"/></center>
+                      <center><Image src={"/img/Bird.png"} width="200" height="300"/></center>
                       
                       <p className='text-50' style={{textAlign: 'justify'}}>The UIUC Philippine Student Association proudly presents the theme for 
                       this year’s Filipino Americans Coming Together Conference; “Kalinangán: Power in Unity”. In Tagalog,
@@ -251,7 +251,7 @@ const Landing = () => (
             <Section.Title>Mission</Section.Title>
               <Section.Body>
                 <Container>
-                  <center><Image src={"/img/logo.PNG"} width="200" height="300"/></center>
+                  <center><Image src={"/img/logo.png"} width="200" height="300"/></center>
                 
                   <p className='text-50' style={{textAlign: 'justify'}}>
                   A movement is taking shape within our society and within each of us as we face the
