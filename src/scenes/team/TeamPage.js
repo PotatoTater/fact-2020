@@ -90,7 +90,7 @@ const TeamPage = () => (
             year='Senior'
             major='Molecular and Cellular Biology'
             bio='Ronell is a senior in Molecular and Cellular Biology with a Spanish minor. He is a first generation filipino student with aspirations on becoming a Physician; more specifically, a pediatrician. In his free time, Ronell likes to cook Filipino food, go out with his friends, and volunteer at a free clinic or at a hospital.'
-            imageURL='/img/fact-pack/ronell.jpg'
+            imageURL='/img/fact-pack/Ronell.jpg'
           />
           <TeamMember
             name='Myka Padilla'
