@@ -1,0 +1,11 @@
+.card {
+  border: none !important;
+  border-radius: .3em !important; 
+
+  transition: transform .3s ease-in-out;
+  transform: scale(1);
+}
+
+.card:hover {
+  transform: scale(1.005);
+}

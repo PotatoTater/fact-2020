@@ -1,0 +1,33 @@
+.title {
+    color: white;
+  }
+.date {
+    color: white;
+    font-size: 2em
+}
+.subtitle {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.main-image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/img/betterBridge.png');
+    background-size: cover;
+}
+
+@media(max-width: 576px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .date, .subtitle {
+        font-soze: 1.2rem;
+    }
+}
+

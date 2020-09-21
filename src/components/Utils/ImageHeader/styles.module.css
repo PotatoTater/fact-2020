@@ -1,0 +1,12 @@
+.background {
+  height: 800px;
+  width: 100vw;
+}
+
+.titleContainer {
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
+  color: white;
+  font-size: 5em;
+}
