@@ -57,7 +57,7 @@ const TeamPage = () => (
             major='Undeclared - Chemistry/Integrated Biology'
             bio='Melencio has been involved with PSA since Freshman year and was also a part of last year&apos;s board as Alumni chair. Other than being involved with PSA he is also a blue belt in taekwondo and part of Illini Taekwondo. He was planning on transferring into Chemistry but has been enjoying his classes in Integrated Biology and second guessing his decision. He is looking forward to helping host the first online FACT and hopes you&apos;re as excited as him!
             '
-            imageURL='/img/fact-pack/Melencio.jpg'
+            imageURL='/img/fact-pack/Melencio.JPG'
           />
           
           <TeamMember
@@ -90,7 +90,7 @@ const TeamPage = () => (
             year='Senior'
             major='Molecular and Cellular Biology'
             bio='Ronell is a senior in Molecular and Cellular Biology with a Spanish minor. He is a first generation filipino student with aspirations on becoming a Physician; more specifically, a pediatrician. In his free time, Ronell likes to cook Filipino food, go out with his friends, and volunteer at a free clinic or at a hospital.'
-            imageURL='/img/fact-pack/Ronell.jpg'
+            imageURL='/img/fact-pack/Ronell.JPG'
           />
           <TeamMember
             name='Myka Padilla'
@@ -106,7 +106,7 @@ const TeamPage = () => (
             year='Senior'
             major='Human Development and Family Studies'
             bio='Camille Adao is from Chicago and she has been in PSA since she was a freshman, and she has grown so much because of it. Over the years, she has started to grow more comfortable the more she was involved. From developing strong bonds with fellow peers in Barkada and being in FACT Pack, it is a great opportunity to give back to an organization that is a family to many. She and her co-chairs are excited to create the graphics you will see throughout the week of FACT!'
-            imageURL='/img/fact-pack/Camille.jpeg'
+            imageURL='/img/fact-pack/camille.jpeg'
           />
            <TeamMember
             name='Brion Nono'
@@ -114,7 +114,7 @@ const TeamPage = () => (
             year='Junior'
             major='Media and Cinema Studies'
             bio='David has been a part of UIUC’s PSA since his freshman year; former Athletic chair and a performer for Barkada of FACT 2018. Over the summer he interned at his father’s pharmaceutical company and took the DAT (Dental Admissions Test), placing in the top 0.1% in the nation. Now in his final year of college, he spends a lot of time alone in the library studying for his classes while he gets ready to leave for Dental school the next fall. David is currently an active brother of Lambda Phi Epsilon fraternity on campus, and likes to “destress” with his bros on the weekends. In his free time he likes to lift weights casually, but stopped serious bodybuilding due to a permanent spinal condition. His goal in the future is to own a dental practice and start a Research &amp; Development company to further improve and distribute dental technology.'
-            imageURL='/img/fact-pack/Brion.jpg'
+            imageURL='/img/fact-pack/brion.JPG'
           />
           <TeamMember 
             name='Josh Domingo'
@@ -122,7 +122,7 @@ const TeamPage = () => (
             year='Junior'
             major='Architecture'
             bio='Josh has always been inspired to help and support other people, whether it&apos;s through volunteering, motivating others to reach their goals, or simply finding the time to be available for his friends and family. With architecture, he hopes to find himself improving the lives of many people with his designs. In his time in college so far, he has been involved with many student organizations that encourage Asian cultural heritage and bringing together the Asian community, especially with the Philippines Student Association. As one of the Team FACT Managers, he hopes to help bring together people of not only the Filipino community, but also the Asian-American community to experience more about Filipino culture. During his free time, he likes to workout, binge Avatar on Netflix and is always down to discover new places to eat.'
-            imageURL='/img/fact-pack/Josh.png'
+            imageURL='/img/fact-pack/Josh.PNG'
           />
           <TeamMember 
             name='Lorenzo Magnaye'
