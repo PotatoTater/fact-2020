@@ -113,7 +113,7 @@ const TeamPage = () => (
             position='Media'
             year='Junior'
             major='Media and Cinema Studies'
-            bio='David has been a part of UIUC’s PSA since his freshman year; former Athletic chair and a performer for Barkada of FACT 2018. Over the summer he interned at his father’s pharmaceutical company and took the DAT (Dental Admissions Test), placing in the top 0.1% in the nation. Now in his final year of college, he spends a lot of time alone in the library studying for his classes while he gets ready to leave for Dental school the next fall. David is currently an active brother of Lambda Phi Epsilon fraternity on campus, and likes to “destress” with his bros on the weekends. In his free time he likes to lift weights casually, but stopped serious bodybuilding due to a permanent spinal condition. His goal in the future is to own a dental practice and start a Research &amp; Development company to further improve and distribute dental technology.'
+            bio='Brion is junior in media and cinema studies. He loves to watch special effects videos and how movies are made as he hopes to work with videos in the future. He enjoys streaming on Twitch and bopping to TWICE in his free time. Say hi to Brion at FACT this year and ask him for some cool memes!'
             imageURL='/img/fact-pack/brion.JPG'
           />
           <TeamMember 
