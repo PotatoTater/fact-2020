@@ -135,7 +135,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Monday, Nov. 9" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -164,15 +164,17 @@ const Agenda = () => (
         location: "Zoom",
       }
     ]}/>
+    </Col>
     <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
-    <Day day="Thurs., Nov. 12" events={[
+    <Day day="Thu., Nov. 12" events={[
       {
         time: "All Day",
         duration: 1,
-        title: "Portillos Fundraiser",
-        location: "Portillos @ Champaign, IL",
+        title: "Portillo's Fundraiser",
+        location: "Portillo's @ Champaign",
       }
     ]}/>
+    </Col>
     <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
     <Day day="Friday, Nov. 13" events={[
       {
