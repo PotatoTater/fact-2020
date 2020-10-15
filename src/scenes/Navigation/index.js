@@ -26,6 +26,12 @@ const Navigation = () => (
           >Meet The Team</Link>
         </li>
         <li className='nav-item'>
+          <Link 
+            className={`nav-link fontCabin ${styles.link}`}
+            to='/workshops'
+          >Workshops</Link>
+        </li>
+        <li className='nav-item'>
           <a href='https://www.facebook.com/psafact'
            className={`nav-link fontCabin ${styles.link}`}
            target="_blank"

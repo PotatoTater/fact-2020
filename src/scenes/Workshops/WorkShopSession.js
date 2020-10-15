@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Session = styled.div`
   cursor: pointer;
   padding: .75em;
+  background: white;
   border: 1px solid white;
   border-radius: 1em;
   transform: scale(.985);
@@ -12,10 +13,12 @@ const Session = styled.div`
     transform .3s ease-in-out, 
     border .3s ease-in-out,
     box-shadow .3s ease-in-out;
+    background 1s ease-in-out;
   &:hover {
     transform: scale(1);
     border: 1px solid #EEEEEE;
     box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.4);
+    background: rgba(88,164,149,.1)
   }
 `
 
@@ -29,12 +32,12 @@ const SessionHeader = styled.div`
 
 const SessionId = styled.div`
   display: flex;
-  background: linear-gradient(90deg, rgba(181,126,175,1) 0%, rgba(203,145,196,1) 100%);
+  background: linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%);
   color: white;
   padding: 5px 20px;
   border-radius: .5em;
   font-size: 1.5em;
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
   font-weight: 300;
   flex-grow: 0;
   flex-shrink: 0;
@@ -44,27 +47,27 @@ const SessionId = styled.div`
 `
 
 const WorkshopTitle = styled.h4`
-  font-family: 'Open Sans';
-  font-weight: 700;
+  font-family: 'Playfair Display';
+  font-weight: 100;
 `
 
 const WorkshopFacilitator = styled.h5`
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
   font-weight: 700;
 `
 
-const WorkshopLocation = styled.h6`
-  font-family: 'Open Sans';
+const WorkshopTime = styled.h6`
+  font-family: 'Cabin';
   font-size: 1.2em;
   font-weight: 600;
 `
 
 const WorkshopDescription = styled.p`
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
 `
 
 const AboutTheFacilitator = styled.span`
-  font-family: 'Open Sans';
+  font-family: 'Cabin';
   font-weight: 600;
   font-size: 1.5em;
 `
@@ -86,11 +89,11 @@ const WorkshopSession = ({ workshop }) => {
 
   const toggleInfoButtonMessage = isSelected ? (
     <div>
-      <i style={{ color: 'rgba(181,126,175,1)', fontSize: '1.5em'}} class="fas fa-chevron-up"></i> 
+      <i style={{ color: 'rgba(249,186,169,1)', fontSize: '1.5em'}} class="fas fa-chevron-up"></i> 
     </div>
   ) : (
     <div>
-      <i style={{ color: 'rgba(181,126,175,1)', fontSize: '1.5em'}} class="fas fa-chevron-down"></i>
+      <i style={{ color: 'rgba(88,164,149,1)', fontSize: '1.5em'}} class="fas fa-chevron-down"></i>
     </div>
   )
   return (
@@ -108,7 +111,7 @@ const WorkshopSession = ({ workshop }) => {
             {workshop.title}
           </WorkshopTitle>
           <WorkshopFacilitator className='text-black-50'>{workshop.name}</WorkshopFacilitator>
-          <WorkshopLocation className='text-black-50 mb-3'>{workshop.location}</WorkshopLocation>
+          <WorkshopTime className='text-black-50 mb-3'>{workshop.time}</WorkshopTime>
         </div>
       </SessionHeader> 
       <WorkshopDescription className='mb-4' dangerouslySetInnerHTML={createMarkup(description)}/>

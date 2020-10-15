@@ -14,6 +14,7 @@ import Footer from '../../components/Footer'
 
 import styles from './styles.module.css'
 import Image from 'react-bootstrap/Image'
+import Button  from 'react-bootstrap/Button';
 
 class ImH extends React.Component {
   constructor(props) {
@@ -125,7 +126,27 @@ const Day = ({ day, events }) => (
 )
 const Agenda = () => (
   <Row>
-    <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Day day="Friday, Nov. 6" events={[
+      {
+        time: "Time TBD",
+        duration: 1,
+        title: "Virtual *Onsite* Registration",
+        location: "Zoom",
+      }
+    ]}/>
+    </Col>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Day day="Saturday, Nov. 7" events={[
+      {
+        time: "Time TBD",
+        duration: 1,
+        title: "Virtual *Onsite* Registration",
+        location: "Zoom",
+      }
+    ]}/>
+    </Col>
+    <Col md={{ span: 12, offset: 0 }} lg={{ span: 6, offset: 0}}>
     <Day day="Sunday, Nov. 8" events={[
       {
         time: "Time TBD",
@@ -165,13 +186,25 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
-    <Day day="Thu., Nov. 12" events={[
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 12, offset: 0}}>
+    <Day day="Thursday, Nov. 12" events={[
       {
         time: "All Day",
         duration: 1,
         title: "Portillo's Fundraiser",
         location: "Portillo's @ Champaign",
+      },
+      {
+        time: "3:00 - 6:00pm CST",
+        duration: 1,
+        title: "FACT Social & Networking  Session",
+        location: "Zoom",
+      },
+      {
+        time: "3:00 - 7:00pm CST",
+        duration: 1,
+        title: "MAFAmily Day",
+        location: "TBA",
       }
     ]}/>
     </Col>
@@ -181,7 +214,7 @@ const Agenda = () => (
         time: "Time TBD",
         duration: 1,
         title: "Variety Show",
-        location: "Location TBD",
+        location: "Youtube Live",
       }
     ]}/>
     </Col>
@@ -221,8 +254,32 @@ const Landing = () => (
           </Container>
         </Section.Body>
       </Section>
-
       
+      
+      <Section >
+        <Section.Body>
+          <Container>
+            <UICard>
+              <UICard.Header>
+                <UICard.Title>Registration</UICard.Title>
+                {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
+              </UICard.Header>
+              <UICard.Body>
+                <Row>
+                  <Col lg={{ span: 6, offset: 3 }}>
+                    <center>
+                      <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
+                        Registration is now open! Look at the workshops first to see your prefrences and fill out the form by clicking the button below! Register early to guarantee your spot in your preferred workshops! 
+                      </p>
+                      <Button variant="light" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfPkx00zjmCvd9dxj1qU_ab-Gl7zwgSuQfkCI_8yfvzZB6LKQ/viewform?usp=sf_link">Register now!</Button>{' '}
+                    </center>
+                  </Col>
+                </Row>
+              </UICard.Body>
+            </UICard>
+          </Container>
+        </Section.Body>
+      </Section>
       
       <Section>
         <Row style={{marginRight:0}}>

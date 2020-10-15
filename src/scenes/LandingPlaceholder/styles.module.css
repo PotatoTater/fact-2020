@@ -21,7 +21,9 @@
     background-image: url('/img/betterBridge.png');
     background-size: cover;
 }
-
+.custom-btn, .custom-btn:hover, .custom-btn:active, .custom-btn:visited {
+    background-color: #8064A2!important;
+}
 @media(max-width: 576px) {
     .title {
         font-size: 1.5rem;
