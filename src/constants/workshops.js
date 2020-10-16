@@ -68,8 +68,8 @@ const WORKSHOPS = [{
   session: 'WORKSHOP_SESSION_02',
   title: 'Ancestors-in-Training: 6 steps to leaving your legacy',
   description: 'Calling all community organizers, entrepreneurs, and folks with big hearts and even bigger dreams. Are you convinced that you’re here to serve a purpose - even if you don’t quite know what that is yet? Ready to BOSS UP with your team and create a life you love? Workshop six steps to step into your power and make it happen IRL. Internship opportunities extended to select attendees.',
-  name: 'Michelle Macrohon',
-  bio: 'Michelle Macrohon A 23-year-old Filipina-Chinese American based in Fontana, CA who graduated from the University of California, Santa Barbara as an Asian American Studies Major, Education Minor, and Technology Management Certificate. UCSB is where she started Subtle Filipino Traits which is a Facebook group that was created with the purpose of connecting Filipinos globally and now the community is made of 90k members and growing.  Her passion for the Filipino community opened opportunities for her in leadership, partnerships, and hosting workshops at conferences. She also is a DJ who goes by the name “Seduza”. Her sound transcends from hip-hop, soul, and RnB to EDM sub-genres including future bass, house, and trap. Michelle is an aspiring super-connector, passionate about empowerment and community-building, and mental health advocate. Her universal purpose in life is to leave people and places better than she found them.'
+  name: 'Melorie Serrano Masacupan',
+  bio: 'Melorie Serrano Masacupan, the founder of the Collective Healing Network, is an online course creator coaching healers, teachers, and creatives to doula their dharma through signature offerings. As a former UIUC PSA President, Melorie loves to rain ancestral love at FACT through well-received workshops such as Decolonizing Filipino Mentality (2012) and Speak Your Dreams into Existence (2019).'
 },
 {
   id: 'S2-2',
