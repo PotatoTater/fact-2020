@@ -149,10 +149,10 @@ const Agenda = () => (
     <Col md={{ span: 12, offset: 0 }} lg={{ span: 6, offset: 0}}>
     <Day day="Sunday, Nov. 8" events={[
       {
-        time: "Time TBD",
+        time: "7:00 - 9:00pm CST",
         duration: 1,
         title: "Opening Session",
-        location: "Location TBD",
+        location: "Zoom",
       }
     ]}/>
     </Col>
