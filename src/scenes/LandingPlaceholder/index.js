@@ -129,7 +129,7 @@ const Agenda = () => (
     <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
     <Day day="Friday, Nov. 6" events={[
       {
-        time: "Time TBD",
+        time: "3:00 - 7:00pm CST",
         duration: 1,
         title: "Virtual *Onsite* Registration",
         location: "Zoom",
@@ -139,7 +139,7 @@ const Agenda = () => (
     <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
     <Day day="Saturday, Nov. 7" events={[
       {
-        time: "Time TBD",
+        time: "3:00 - 7:00pm CST",
         duration: 1,
         title: "Virtual *Onsite* Registration",
         location: "Zoom",
@@ -189,7 +189,7 @@ const Agenda = () => (
     <Col md={{ span: 12, offset: 0}} lg={{ span: 12, offset: 0}}>
     <Day day="Thursday, Nov. 12" events={[
       {
-        time: "All Day",
+        time: "4:00 - 8:00pm CST",
         duration: 1,
         title: "Portillo's Fundraiser",
         location: "Portillo's @ Champaign",

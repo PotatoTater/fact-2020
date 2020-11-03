@@ -1,6 +1,6 @@
 const WORKSHOPS = [{
   id: 'S1-1',
-  time: 'Monday 3-4 PM',
+  time: 'Monday 6-7 PM',
   session: 'WORKSHOP_SESSION_01',
   title: 'Stop! Don\'t Give me the "Kung-Flu"',
   description: '<p>“Attendees will be challenged to introspectively reflect on community interactions and how that has affected them: as subtle, unintentional micro-aggression or pronounced xenophobia.  This workshop will consist of an interactive dialogue between our facilitators and attendees of FACT, we will be reading true scenarios of  experiences regarding xenophobia/micro-aggression that has taken place during 2020 during the COVID-19 pandemic. We will have a discussion on what the individual did in response and what the "correct" or some "alternatives" responsive may be.',

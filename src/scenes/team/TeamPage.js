@@ -148,7 +148,7 @@ const TeamPage = () => (
             position='Variety Show Coordinator'
             year='Senior'
             major='Industrial Design'
-            bio='Jasmine held UIUC PSA’s co-cultural chair position in the year 2019 and helped lead Barkada to a first place victory at Battle of The Bamboo earlier this year. She is a member of the UIUC Odyssey, writing content that you can check out online. Jasmine illustrates and trims her during her free time. You might see her working as a hair stylist or a tattoo artist in the near future.'
+            bio='Jasmin held UIUC PSA’s co-cultural chair position in the year 2019 and helped lead Barkada to a first place victory at Battle of The Bamboo earlier this year. She is a member of the UIUC Odyssey, writing content that you can check out online. Jasmine illustrates and trims her during her free time. You might see her working as a hair stylist or a tattoo artist in the near future.'
             imageURL='/img/fact-pack/jazmin.JPG'
           />
           <TeamMember
