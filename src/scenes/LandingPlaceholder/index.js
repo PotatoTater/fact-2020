@@ -255,13 +255,35 @@ const Landing = () => (
         </Section.Body>
       </Section>
       
-      
+      <Section>
+      <Section.Title style={{}}>Registration</Section.Title>
+        <Section.Body>
+          <Container>
+            <Row>
+              <Col
+                md={12}
+                lg={{ span: 12, offset: 0}}
+              >
+                <center>
+                <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em'}}>
+                  Registration through the online form has now closed, however, we still have our virtual on site registration on Friday, Nov. 6
+                  and Saturday, Nov. 7. Check this website for the links to those registration zoom sessions, which will be up on Thursday night.
+                  You can choose your workshops on site, and as long as they are not full, you should be able to attend them! If you have any questions
+                  or concerns, please don't hesitate to reach out to us @ fact@psauiuc.org. For technical information, zoom information, or other 
+                  questions regarding online logistics or your form responses, contact IT at fact.it@psauiuc.org See you soon!</p>
+                </center>
+              </Col>
+            </Row>
+          </Container>
+        </Section.Body>
+      </Section>
+
       <Section >
         <Section.Body>
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>Registration</UICard.Title>
+                <UICard.Title>Booklet</UICard.Title>
                 {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
               </UICard.Header>
               <UICard.Body>
@@ -269,9 +291,10 @@ const Landing = () => (
                   <Col lg={{ span: 6, offset: 3 }}>
                     <center>
                       <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                        Registration is now open! Look at the workshops first to see your prefrences and fill out the form by clicking the button below! Register early to guarantee your spot in your preferred workshops! 
+                        Click the button below to check out our beautifully created booklet for this year's FACT conference! Check out the headliners, facilitators, and workshops, along with
+                        merch links and more FACT information! We'll see you at FACT!
                       </p>
-                      <Button variant="light" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfPkx00zjmCvd9dxj1qU_ab-Gl7zwgSuQfkCI_8yfvzZB6LKQ/viewform?usp=sf_link">Register now!</Button>{' '}
+                      <Button variant="light" target="_blank" href="https://drive.google.com/file/d/1wIuYDJcYD7gweFk3g0m8nWOJmIgGamYc/view">FACT Booklet</Button>{' '}
                     </center>
                   </Col>
                 </Row>
