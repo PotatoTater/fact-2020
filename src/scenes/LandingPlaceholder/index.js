@@ -295,7 +295,7 @@ const Landing = () => (
                         Click the button below to check out our beautifully created booklet for this year's FACT conference! Check out the headliners, facilitators, and workshops, along with
                         merch links and more FACT information! We'll see you at FACT!
                       </p>
-                      <Button variant="light" target="_blank" href="https://drive.google.com/file/d/1oAl5K2iIc-XJWAVZVWQAdQBA1k5SzmQq/view">FACT Booklet</Button>{' '}
+                      <Button variant="light" target="_blank" href="https://drive.google.com/file/d/1nL8lY9ZyBi97oiSjcjE9X4bAeohrNFM3/view?usp=sharing">FACT Booklet</Button>{' '}
                     </center>
                   </Col>
                 </Row>
