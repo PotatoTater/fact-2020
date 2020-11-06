@@ -97,7 +97,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '1em',
           textAlign: 'left'
         }}
-      >{title}</p>
+      ><br></br>{title}</p>
       <p
         className='fontCabin p-0 m-0 text-white'
         style={{
