@@ -104,7 +104,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '1em',
           textAlign: 'left'
         }}
-      ><br>{location}</p>
+      ><br></br>{location}</p>
     </div>
  </div>
 )
