@@ -65,15 +65,15 @@ const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
     background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
     borderRadius: '.3em',
-    marginBottom: '2em',
-    marginTop: '2em',
+    marginBottom: '.75em',
+    marginTop: '.75em',
     padding: '.75em',
     marginLeft: '.1em',
     paddingTop: '.5em',
     minHeight: `${3.4 * duration}em`,
     display: 'flex'
  }}>
-    <br></br>
+    
     <div style={{
       flex: 2
     }}>
@@ -84,7 +84,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '.9em',
           textAlign: 'right'
         }}
-      >{time}</p>
+      ><br></br>{time}</p>
     </div>
     <div style={{
       flex: 3,
