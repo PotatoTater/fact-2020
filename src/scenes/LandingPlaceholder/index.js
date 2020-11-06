@@ -270,7 +270,7 @@ const Landing = () => (
                   on site! If you have any questions
                   or concerns, please don't hesitate to reach out to us @ fact@psauiuc.org. For technical information, zoom information, or other 
                   questions regarding online logistics or your form responses, contact IT at fact.it@psauiuc.org See you soon!</p>
-                <Button variant="light" target="_blank" href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Register Now!</Button>{' '}
+                <Button variant="dark" target="_blank" href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Register Now!</Button>{' '}
                 </center>
               </Col>
             </Row>
