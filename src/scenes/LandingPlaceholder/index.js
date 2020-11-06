@@ -132,7 +132,7 @@ const Agenda = () => (
         time: "3:00 - 7:00pm CST",
         duration: 1,
         title: "Virtual *Onsite* Registration",
-        location: "Zoom",
+        location: <a href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Zoom</a>,
       }
     ]}/>
     </Col>
