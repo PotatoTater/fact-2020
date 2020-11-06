@@ -65,8 +65,8 @@ const Event = ({ time, title, location, duration }) => (
  <div className='boxShadow' style={{
     background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
     borderRadius: '.3em',
-    marginBottom: '.75em',
-    marginTop: '.75em',
+    marginBottom: '2em',
+    marginTop: '2em',
     padding: '.75em',
     marginLeft: '.1em',
     paddingTop: '.5em',
