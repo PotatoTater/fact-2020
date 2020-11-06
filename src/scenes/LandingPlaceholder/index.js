@@ -84,7 +84,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '.9em',
           textAlign: 'right'
         }}
-      ><br></br>{time}</p>
+      >{time}</p>
     </div>
     <div style={{
       flex: 3,
@@ -97,7 +97,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '1em',
           textAlign: 'left'
         }}
-      ><br></br>{title}</p>
+      >{title}</p>
       <p
         className='fontCabin p-0 m-0 text-white'
         style={{
@@ -105,7 +105,7 @@ const Event = ({ time, title, location, duration }) => (
           fontSize: '1em',
           textAlign: 'left'
         }}
-      ><br></br>{location}</p>
+      >{location}</p>
     </div>
  </div>
 )
@@ -133,7 +133,7 @@ const Agenda = () => (
         time: "3:00 - 7:00pm CST",
         duration: 1,
         title: "Virtual *Onsite* Registration",
-        location: <Button variant="light" target="_blank" href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Zoom</Button>
+        location: "Zoom",
       }
     ]}/>
     </Col>
