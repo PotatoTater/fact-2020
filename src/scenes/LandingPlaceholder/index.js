@@ -266,11 +266,11 @@ const Landing = () => (
               >
                 <center>
                 <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em'}}>
-                  Registration through the online form has now closed, however, we still have our virtual on site registration on Friday, Nov. 6
-                  and Saturday, Nov. 7. Check this website for the links to those registration zoom sessions, which will be up on Thursday night.
-                  You can choose your workshops on site, and as long as they are not full, you should be able to attend them! If you have any questions
+                  Virtual Registration will open soon! Click the button below to open the Zoom room! Even if you haven't registered yet, you can register late
+                  on site! If you have any questions
                   or concerns, please don't hesitate to reach out to us @ fact@psauiuc.org. For technical information, zoom information, or other 
                   questions regarding online logistics or your form responses, contact IT at fact.it@psauiuc.org See you soon!</p>
+                <Button variant="light" target="_blank" href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Register Now!</Button>{' '}
                 </center>
               </Col>
             </Row>
