@@ -73,6 +73,7 @@ const Event = ({ time, title, location, duration }) => (
     minHeight: `${3.4 * duration}em`,
     display: 'flex'
  }}>
+    <br></br>
     <div style={{
       flex: 2
     }}>
