@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 import UICard from '../../UIComponents/UICard'
+import UIButton from '../../UIComponents/UIButton'
 import UIYoutubeEmbed from '../../UIComponents/UIYoutubeEmbed'
 
 import Layout from '../../components/Utils/Layout'
@@ -62,48 +63,60 @@ class ImH extends React.Component {
 
 
 const Event = ({ time, title, location, duration }) => (
- <div className='boxShadow' style={{
+ <div className='boxShadow--d-flex flex-column' style={{
     background: `linear-gradient(215deg, rgba(249,186,169,1) 0%, rgba(88,164,149,1)  90%)`,
     borderRadius: '.3em',
     marginBottom: '.75em',
     marginTop: '.75em',
     padding: '.75em',
     marginLeft: '.1em',
-    paddingTop: '.5em',
+    paddingTop: '1em',
+    paddingBottom: '1em',
     minHeight: `${3.4 * duration}em`,
     display: 'flex'
+    
  }}>
     
     <div style={{
-      flex: 2
+      flex: 3
     }}>
+      
       <p 
         className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 900,
-          fontSize: '.9em',
-          textAlign: 'right'
-        }}
-      >{time}</p>
-    </div>
-    <div style={{
-      flex: 3,
-      paddingLeft: '1em'
-    }}>
-      <p
-        className='fontCabin p-0 m-0 text-white'
-        style={{
-          fontWeight: 600,
-          fontSize: '1em',
-          textAlign: 'left'
+          fontSize: '1.2em',
+          textAlign: 'center'
         }}
       >{title}</p>
+      
+    </div>
+    
+    <div style={{
+      flex: 3,
+      paddingTop: '.5em',
+    }}>
       <p
         className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 300,
           fontSize: '1em',
-          textAlign: 'left'
+          textAlign: 'center'
+        }}
+    
+      >{time}</p>
+      </div>
+    
+    <div style={{
+      flex: 3,
+      paddingTop: '.5em',
+    }}>
+      <p
+        className='fontCabin p-0 m-0 text-white'
+        style={{
+          fontWeight: 300,
+          fontSize: '1em',
+          textAlign: 'center'
         }}
       >{location}</p>
     </div>
@@ -147,17 +160,25 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0 }} lg={{ span: 6, offset: 0}}>
+    <Col md={{ span: 12, offset: 0 }} lg={{ span: 12, offset: 0}}>
     <Day day="Sunday, Nov. 8" events={[
       {
         time: "7:00 - 9:00pm CST",
         duration: 1,
         title: "Opening Session",
-        location: "Zoom",
+        location: 
+        <Button variant="outline-light" target="_blank" href="https://drive.google.com/file/d/1nL8lY9ZyBi97oiSjcjE9X4bAeohrNFM3/view?usp=sharing"
+        style={{
+          fontWeight: 500,
+          
+          fontColor: 'rgba(241,164,232,0)'
+
+        }}
+        className='text-center fontCabin'>Click Here to Go To Opening Session!</Button>,
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Monday, Nov. 9" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -167,7 +188,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Tuesday, Nov. 10" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -177,7 +198,7 @@ const Agenda = () => (
       }
     ]}/>
     </Col>
-    <Col md={{ span: 12, offset: 0}} lg={{ span: 6, offset: 0}}>
+    <Col md={{ span: 12, offset: 0}} lg={{ span: 4, offset: 0}}>
     <Day day="Wed., Nov. 11" events={[
       {
         time: "3:00 - 7:00pm CST",
@@ -189,12 +210,7 @@ const Agenda = () => (
     </Col>
     <Col md={{ span: 12, offset: 0}} lg={{ span: 12, offset: 0}}>
     <Day day="Thursday, Nov. 12" events={[
-      {
-        time: "4:00 - 8:00pm CST",
-        duration: 1,
-        title: "Portillo's Fundraiser",
-        location: "Portillo's @ Champaign",
-      },
+      
       {
         time: "3:00 - 6:00pm CST",
         duration: 1,
@@ -206,6 +222,12 @@ const Agenda = () => (
         duration: 1,
         title: "MAFAmily Day",
         location: "TBA",
+      },
+      {
+        time: "4:00 - 8:00pm CST",
+        duration: 1,
+        title: "Portillo's Fundraiser",
+        location: "Portillo's @ Champaign",
       }
     ]}/>
     </Col>
@@ -242,7 +264,7 @@ const Landing = () => (
                 lg={{ span: 12, offset: 0}}
               >
                 <center>
-                <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em'}}>
+                <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em', marginRight:'5vw', marginLeft:'5vw'}}>
                   We unite Filipino-Americans. The Filipino-Americans Coming Together (FACT) Conference has brought thousands of
                   Filipino-Americans together over its over 25 year old history. Delegates come from across the Midwest, America, and even from Canada to 
                   participate in FACT every year, creating lasting memories of their novel experiences
@@ -251,54 +273,91 @@ const Landing = () => (
                   memories that will last a lifetime. </p>
                 </center>
               </Col>
+              <div class="col text-center">
+              <Button variant="outline-dark" target="_blank" href="https://drive.google.com/file/d/1nL8lY9ZyBi97oiSjcjE9X4bAeohrNFM3/view?usp=sharing"
+                       style={{
+                        fontWeight: 600,
+                        borderRadius: '10px',
+                        border: '2px solid', 
+                        fontColor: 'rgba(241,164,232,0)',
+                        boxShadow: "5px 5px 0px rgba(46, 46, 46, 0.12)"
+                      }}
+                      className='text-center fontCabin'>
+                        Check out the FACT Booklet!</Button>{' '}
+               </div>
             </Row>
           </Container>
         </Section.Body>
       </Section>
       
-      <Section>
-      <Section.Title style={{}}>Registration</Section.Title>
+      {/* <Section>
+      <Section.Title style={{}}>Booklet</Section.Title>
         <Section.Body>
           <Container>
-            <Row>
-              <Col
-                md={12}
-                lg={{ span: 12, offset: 0}}
-              >
-                <center>
-                <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em'}}>
-                  Virtual Registration will open soon! Click the button below to open the Zoom room! Even if you haven't registered yet, you can register late
-                  on site! If you have any questions
-                  or concerns, please don't hesitate to reach out to us @ fact@psauiuc.org. For technical information, zoom information, or other 
-                  questions regarding online logistics or your form responses, contact IT at fact.it@psauiuc.org See you soon!</p>
-                <Button variant="outline-dark" target="_blank" href="https://us02web.zoom.us/j/83529638108?pwd=SDh6MnNOQTlwcno1QVVRUExuSE9zQT09">Register Now!</Button>{' '}
-                </center>
-              </Col>
-            </Row>
+          <Row>
+                  <Col lg={{ span: 12, offset: 0 }}>
+                    <center>
+                      <p className='text-50' style={{textAlign: 'justify', marginBottom:'2em', marginRight:'5vw', marginLeft:'5vw'}}>
+                        Click the button below to check out our beautifully created booklet for this year's FACT conference! Check out the headliners, facilitators, and workshops, along with
+                        merch links and more FACT information! We'll see you at FACT!
+                      </p>
+                      
+                  </Col>
+                </Row>
+            
           </Container>
         </Section.Body>
-      </Section>
+      </Section> */}
 
       <Section >
         <Section.Body>
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>Booklet</UICard.Title>
+                <UICard.Title>Late Registration & Opening Session</UICard.Title>
                 {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
               </UICard.Header>
               <UICard.Body>
+               
                 <Row>
-                  <Col lg={{ span: 6, offset: 3 }}>
-                    <center>
-                      <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                        Click the button below to check out our beautifully created booklet for this year's FACT conference! Check out the headliners, facilitators, and workshops, along with
-                        merch links and more FACT information! We'll see you at FACT!
-                      </p>
-                      <Button variant="light" target="_blank" href="https://drive.google.com/file/d/1nL8lY9ZyBi97oiSjcjE9X4bAeohrNFM3/view?usp=sharing">FACT Booklet</Button>{' '}
-                    </center>
-                  </Col>
+                <div class="col text-center">
+                  <center>
+                  <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
+                    Registration is still going to be open before Opening Session from 3-7 PM CST! If you still want to attend FACT, come during that time and we can give you your workshops!
+                    Otherwise, come to opening session and take your first step into this year's FACT experience! We'll be taking role call, so be ready and be loud!
+                    
+                    </p>
+                  </center>
+                </div>
                 </Row>
+                <Row>
+                <div class="col text-right">
+                    <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/87272667458" 
+                            style={{
+                            fontWeight: 500,
+                            borderRadius: '10px',
+                            
+                            fontColor: 'rgba(241,164,232,0)',
+                            boxShadow: "5px 5px 5px rgba(46, 46, 46, 0.12)"
+                          }}
+                    className='text-center fontCabin'>Click to Register Now!</Button>{' '}
+                </div>
+                <div class="col text-left">          
+                    <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/86894902548?pwd=eVUwYWFyT2ZJdUdZVUFRYmovaVBOQT09" 
+                            style={{
+                            fontWeight: 500,
+                            borderRadius: '10px',
+                        
+                            fontColor: 'rgba(241,164,232,0)',
+                            boxShadow: "5px 5px 5px rgba(46, 46, 46, 0.12)",
+                            alignItem: 'center'
+                          }}
+                    className='text-center fontCabin'>Attend Opening Session!</Button>{' '}
+                </div> 
+                  
+                </Row>
+
+
               </UICard.Body>
             </UICard>
           </Container>
