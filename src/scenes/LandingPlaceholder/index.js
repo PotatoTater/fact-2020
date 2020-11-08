@@ -94,7 +94,7 @@ const Event = ({ time, title, location, duration }) => (
     
     <div style={{
       flex: 3,
-      paddingTop: '.4em',
+     
     }}>
       <p
         className='fontCabin p-0 m-0 text-white'
@@ -109,7 +109,7 @@ const Event = ({ time, title, location, duration }) => (
     
     <div style={{
       flex: 3,
-      paddingTop: '.4em',
+      
     }}>
       <p
         className='fontCabin p-0 m-0 text-white'
@@ -170,7 +170,7 @@ const Agenda = () => (
         <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/86894902548?pwd=eVUwYWFyT2ZJdUdZVUFRYmovaVBOQT09"
         style={{
           fontWeight: 500,
-          
+          paddingTop: '.6em',
           fontColor: 'rgba(241,164,232,0)'
 
         }}
@@ -218,7 +218,7 @@ const Agenda = () => (
         location: <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/84818899525"
         style={{
           fontWeight: 500,
-          
+          paddingTop: '.6em',
           fontColor: 'rgba(241,164,232,0)'
 
         }}
@@ -330,8 +330,9 @@ const Landing = () => (
                 <div class="col text-center">
                   <center>
                   <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                    Registration is still going to be open before Opening Session from 3-7 PM CST! If you still want to attend FACT, come during that time and we can give you your workshops!
-                    Otherwise, come to opening session and take your first step into this year's FACT experience! We'll be taking role call, so be ready and be loud!
+                    Late Registration has now closed. Soon, Opening Session will be underway at 7 PM CST, so get ready and
+                    get hyped for this years FACT! Take your first step into your FACT experience!
+                    We'll be taking role call, so be ready and be loud! We hope to see all of you there!
                     
                     </p>
                   </center>
@@ -347,7 +348,7 @@ const Landing = () => (
                             fontColor: 'rgba(241,164,232,0)',
                             boxShadow: "5px 5px 5px rgba(46, 46, 46, 0.12)"
                           }}
-                    className='text-center fontCabin'>Click to Register Now!</Button>{' '}
+                    className='text-center fontCabin' disabled>Registration is Closed</Button>{' '}
                 </div>
                 <div class="col text-left">          
                     <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/86894902548?pwd=eVUwYWFyT2ZJdUdZVUFRYmovaVBOQT09" 
