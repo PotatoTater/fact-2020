@@ -222,7 +222,7 @@ const Agenda = () => (
           fontColor: 'rgba(241,164,232,0)'
 
         }}
-        className='text-center fontCabin'>Come Meet and Chat With Us!</Button>,,
+        className='text-center fontCabin'>Come Meet and Chat With Us!</Button>,
       },
       {
         time: "3:00 - 7:00pm CST",
