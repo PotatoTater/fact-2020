@@ -70,8 +70,8 @@ const Event = ({ time, title, location, duration }) => (
     marginTop: '.75em',
     padding: '.75em',
     marginLeft: '.1em',
-    paddingTop: '1em',
-    paddingBottom: '1em',
+    paddingTop: '.7em',
+    paddingBottom: '.7em',
     minHeight: `${3.4 * duration}em`,
     display: 'flex'
     
@@ -94,7 +94,7 @@ const Event = ({ time, title, location, duration }) => (
     
     <div style={{
       flex: 3,
-      paddingTop: '.5em',
+      paddingTop: '.4em',
     }}>
       <p
         className='fontCabin p-0 m-0 text-white'
@@ -109,13 +109,13 @@ const Event = ({ time, title, location, duration }) => (
     
     <div style={{
       flex: 3,
-      paddingTop: '.5em',
+      paddingTop: '.4em',
     }}>
       <p
         className='fontCabin p-0 m-0 text-white'
         style={{
           fontWeight: 300,
-          fontSize: '1em',
+          fontSize: '1.1em',
           textAlign: 'center'
         }}
       >{location}</p>
@@ -167,7 +167,7 @@ const Agenda = () => (
         duration: 1,
         title: "Opening Session",
         location: 
-        <Button variant="outline-light" target="_blank" href="https://drive.google.com/file/d/1nL8lY9ZyBi97oiSjcjE9X4bAeohrNFM3/view?usp=sharing"
+        <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/86894902548?pwd=eVUwYWFyT2ZJdUdZVUFRYmovaVBOQT09"
         style={{
           fontWeight: 500,
           
@@ -215,13 +215,20 @@ const Agenda = () => (
         time: "3:00 - 6:00pm CST",
         duration: 1,
         title: "FACT Social & Networking  Session",
-        location: "Zoom",
+        location: <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/84818899525"
+        style={{
+          fontWeight: 500,
+          
+          fontColor: 'rgba(241,164,232,0)'
+
+        }}
+        className='text-center fontCabin'>Come Meet and Chat With Us!</Button>,,
       },
       {
         time: "3:00 - 7:00pm CST",
         duration: 1,
         title: "MAFAmily Day",
-        location: "TBA",
+        location: "Zoom",
       },
       {
         time: "4:00 - 8:00pm CST",
@@ -468,7 +475,7 @@ const Landing = () => (
 
      
       <Section>
-        <Section.Title>Conference Agenda (WIP)</Section.Title>
+        <Section.Title>Conference Agenda</Section.Title>
         <Section.Body>
           <Container>
               <Col 
