@@ -321,7 +321,7 @@ const Landing = () => (
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>Late Registration & Opening Session</UICard.Title>
+                <UICard.Title>Session II Workshops!</UICard.Title>
                 {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
               </UICard.Header>
               <UICard.Body>
@@ -330,17 +330,17 @@ const Landing = () => (
                 <div class="col text-center">
                   <center>
                   <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                    Late Registration has now closed. Soon, Opening Session will be underway at 7 PM CST, so get ready and
-                    get hyped for this years FACT! Take your first step into your FACT experience!
-                    We'll be taking role call, so be ready and be loud! We hope to see all of you there!
+                    To make things easier for our delegates, we have uploaded the Zoom links to the Session II workshops
+                    in the workshops tab! Just click the workshop title and it will open a new tab to direct you to the
+                    Zoom meeting! If you have any concerns with the Zoom meetings, reach out to fact.it@psauiuc.org.
                     
                     </p>
                   </center>
                 </div>
                 </Row>
                 <Row>
-                <div class="col text-right">
-                    <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/87272667458" 
+                <div class="col text-center">
+                    <Button variant="outline-light"  href="/workshops" 
                             style={{
                             fontWeight: 500,
                             borderRadius: '10px',
@@ -348,10 +348,10 @@ const Landing = () => (
                             fontColor: 'rgba(241,164,232,0)',
                             boxShadow: "5px 5px 5px rgba(46, 46, 46, 0.12)"
                           }}
-                    className='text-center fontCabin' disabled>Registration is Closed</Button>{' '}
+                    className='text-center fontCabin' >Find Your Workshops!</Button>{' '}
                 </div>
-                <div class="col text-left">          
-                    <Button variant="outline-light" target="_blank" href="https://us02web.zoom.us/j/86894902548?pwd=eVUwYWFyT2ZJdUdZVUFRYmovaVBOQT09" 
+                {/* <div class="col text-left">          
+                    <Button variant="outline-light" target="_blank" href="https://www.facebook.com/watch/?v=407863043927868" 
                             style={{
                             fontWeight: 500,
                             borderRadius: '10px',
@@ -361,7 +361,7 @@ const Landing = () => (
                             alignItem: 'center'
                           }}
                     className='text-center fontCabin'>Attend Opening Session!</Button>{' '}
-                </div> 
+                </div>  */}
                   
                 </Row>
 

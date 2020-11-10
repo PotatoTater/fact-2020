@@ -9,16 +9,17 @@ const Session = styled.div`
   border-radius: 1em;
   transform: scale(.985);
   box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.0);
+  background-color: #FFFFFF;
   transition: 
     transform .3s ease-in-out, 
     border .3s ease-in-out,
-    box-shadow .3s ease-in-out;
-    background 1s ease-in-out;
+    box-shadow .3s ease-in-out,
+    background-color .3s ease-in-out;
   &:hover {
     transform: scale(1);
     border: 1px solid #EEEEEE;
     box-shadow: 0px 3px 5px 0px rgba(207,207,207,0.4);
-    background: rgba(88,164,149,.1)
+    background-color:  rgba(88,164,149,.1)
   }
 `
 
@@ -107,8 +108,12 @@ const WorkshopSession = ({ workshop }) => {
           </span>
         </SessionId>
         <div>
-          <WorkshopTitle >
+          <WorkshopTitle ><a href={workshop.link} target="_blank"
+          style={{
+            color: "rgba(88,164,149,1)"
+          }}>
             {workshop.title}
+            </a>
           </WorkshopTitle>
           <WorkshopFacilitator className='text-black-50'>{workshop.name}</WorkshopFacilitator>
           <WorkshopTime className='text-black-50 mb-3'>{workshop.time}</WorkshopTime>

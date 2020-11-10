@@ -108,6 +108,7 @@ const Workshops = () => {
     <Layout style={{ paddingTop: '5vh'}}>
       <Section>
         <Section.Title>Workshops</Section.Title>
+        <Section.Subtitle>Click the titles to open the workshop's Zoom meeting</Section.Subtitle>
         <Section.Body>
           <Container>
             <Row className='pb-2'>

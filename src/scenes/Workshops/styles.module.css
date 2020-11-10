@@ -26,3 +26,9 @@
 .category {
   padding: .25em;
 }
+.a {
+  color: #FFF!important;
+}
+.a:hover {
+   color: #00F!important;
+}
