@@ -321,7 +321,7 @@ const Landing = () => (
           <Container>
             <UICard>
               <UICard.Header>
-                <UICard.Title>Session II Workshops!</UICard.Title>
+                <UICard.Title>Session III Workshops!</UICard.Title>
                 {/* <UICard.Subtitle>Nov 8th - Nov 10th</UICard.Subtitle> */}
               </UICard.Header>
               <UICard.Body>
@@ -330,9 +330,10 @@ const Landing = () => (
                 <div class="col text-center">
                   <center>
                   <p className='text-white p-2'  style={{ fontSize: '1.1em', fontFamily: "Cabin", textAlign: 'justify'}}>
-                    To make things easier for our delegates, we have uploaded the Zoom links to the Session II workshops
+                    To make things easier for our delegates, we have uploaded the Zoom links to the Session III workshops
                     in the workshops tab! Just click the workshop title and it will open a new tab to direct you to the
-                    Zoom meeting! If you have any concerns with the Zoom meetings, reach out to fact.it@psauiuc.org.
+                    Zoom meeting! Enjoy the last session and don't forget to come to our networking session, buy some merch,
+                    and watch V-Show!
                     
                     </p>
                   </center>
